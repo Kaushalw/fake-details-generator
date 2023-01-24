@@ -1,0 +1,275 @@
+:root {
+  font-size: 10px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+body {
+  background-color: rgb(255, 255, 255);
+  transition: 1s all;
+}
+
+main span {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.container i {
+  font-size: 2.5rem;
+  margin: 0.2rem;
+  color: green;
+}
+
+main ul li {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.header,
+.personal,
+.msg {
+  display: grid;
+  margin-left: 0.5rem;
+  font-weight: bolder;
+}
+
+.header input,
+.personal input,
+.msg input {
+  width: 20rem;
+  height: 4rem;
+  margin-right: 5rem;
+  font-size: 1.5rem;
+}
+
+section h1 {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+#dp {
+  width: 20rem;
+}
+
+.msg #txt {
+  width: 15rem;
+  height: 10rem;
+}
+
+.msg button {
+  height: 3rem;
+  font-size: 1.2rem;
+  width: 15rem;
+  border-radius: 10px;
+  border: 1px solid aqua;
+  background-color: aqua;
+}
+
+.whatsapp .nav {
+  background-color: #008069;
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.nav i {
+  font-size: 5vw;
+  display: flex;
+  color: white;
+  margin: 2px;
+  justify-content: center;
+  position: relative;
+  left: 1vw;
+}
+ul {
+  position: relative;
+  left: -1rem;
+}
+
+.whatsapp {
+  display: grid;
+
+  align-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.all {
+  background: url("bg.jpg");
+  height: 100vh;
+
+  background-size: cover;
+}
+.bt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head {
+  background-color: #034039;
+  width: 100%;
+  height: 2rem;
+}
+
+.head ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+}
+
+.head li {
+  float: left;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  margin-left: 4px;
+}
+
+.head li i {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.nav ul li {
+  float: left;
+  margin-left: 20px;
+}
+.nav ul li i {
+  font-size: 5vw;
+  color: white;
+  margin-right: 5px;
+}
+.user-logo {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: -17vw;
+  top: -8px;
+  border-radius: 100%;
+  display: grid;
+  background: url("dp.jpg");
+  background-size: cover;
+}
+
+.user-logo img {
+  position: relative;
+  top: -55%;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+}
+
+.user-logo h4 {
+  position: relative;
+  left: 55px;
+  top: 3px;
+  font-size: 1.7rem;
+  color: rgb(255, 255, 255);
+}
+.user-logo p {
+  position: relative;
+  left: 54px;
+  font-size: 11px;
+  font-weight: 400;
+  color: aliceblue;
+}
+.bottom img {
+  width: 100%;
+
+  position: relative;
+  height: auto;
+}
+.bottom {
+  position: relative;
+  top: -70%;
+  z-index: 999;
+}
+
+/*-----------------------------------------------------------------------*/
+
+.content,
+.you {
+  background-color: transparent;
+  width: auto;
+  display: grid;
+  margin: 5px;
+  display: block;
+  border-radius: 0px 10px 10px 10px;
+  text-transform: capitalize;
+}
+
+.content div,
+.you div {
+  padding-left: 5px;
+  padding-right: 5px;
+
+  text-transform: capitalize;
+}
+.content div {
+  background-color: transparent;
+  display: inline-block;
+  width: 100%;
+}
+.you div {
+  background-color: transparent;
+  display: inline-block;
+  width: 100%;
+}
+
+.content p,
+.you p {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 1px;
+}
+
+.content p {
+  display: inline-block;
+  padding-left: 5px;
+  border-radius: 0px 8px 8px 8px;
+  padding-right: 5px;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.you p {
+  display: inline-block;
+  padding-left: 5px;
+  border-radius: 0px 8px 8px 0px;
+  padding-right: 5px;
+  width: auto;
+  border-radius: 10px 0px 10px 10px;
+  background-color: #def6d4;
+  float: right;
+  
+}
+
+
+.content span,
+.you span {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  margin-top: -6px;
+  padding: 0;
+  font-weight: 400;
+  color: rgb(104, 103, 103);
+  font-size: 10px;
+   
+  
+}
+
+.tt input {
+  width: 10rem;
+}
+
+td textarea {
+  height: 10rem;
+  width: 15rem;
+  font-size: 15px;
+}
+th {
+  font-size: 15px;
+}
