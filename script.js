@@ -60,7 +60,7 @@ content.classList.add('you');
   p.appendChild(span);
 
   content.appendChild(divs);
-  document.getElementById("showall").appendChild(content);
+  document.getElementById("showall").appendChild(content)
 
 
  
