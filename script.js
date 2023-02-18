@@ -6,13 +6,20 @@ function change() {
 
   document.getElementById("showtime").innerHTML = time;
 }
-
-function namechange() {
-  var namee = document.getElementById("name").value;
+function status(){
+  //var namee = document.getElementById("name").value;
   var statuss = document.getElementById("status").value;
 
-  document.getElementById("usname").innerHTML = namee;
+ // document.getElementById("usname").innerHTML = namee;
   document.getElementById("show-status").innerHTML = statuss;
+}
+
+function namechange() {
+ var namee = document.getElementById("name").value;
+ // var statuss = document.getElementById("status").value;
+
+ document.getElementById("usname").innerHTML = namee;
+ // document.getElementById("show-status").innerHTML = statuss;
 }
 
 var loadfile = function (event) {
@@ -60,7 +67,7 @@ content.classList.add('you');
   p.appendChild(span);
 
   content.appendChild(divs);
-  document.getElementById("showall").appendChild(content)
+  document.getElementById("showall").appendChild(content);
 
 
  
