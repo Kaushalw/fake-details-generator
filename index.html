@@ -19,15 +19,13 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-       <title>whatsapp fake chats</title>
-
+    <title>whatsapp chat generator</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-
 
   <body>
     <div class="container">
@@ -91,9 +89,35 @@
           <h3>Sender name:</h3>
           <input id="name" onclick="change()" value="yourname" type="text" />
           <br />
+
+
+
+
+
+
+
+
+
           <h3>status:</h3>
-          <input id="status" value="online" type="text" />
+          <select id="status" onchange="status()">
+            <option value="online">online</option>
+            <option value="typing...">typing...</option>
+            <option value="offline">offline</option>
+     
+          </select>
+       <!----   <input id="status" value="online" type="text" />-->
           <br />
+
+
+
+
+
+
+
+
+
+
+
           <h3>Sender Profile Photo:</h3>
           <input
             id="profile"
@@ -155,6 +179,7 @@
             <button onclick="addmsgone()" type="submit">Add Message</button>
             <button onclick="addmsgtwo()" type="submit">Add Message</button>
           </div>
+
           <br />
           <!----
                 <h3>Message (from sender):</h3>
@@ -208,8 +233,8 @@
                     <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
                   </ul>
                 </div>
-                <div id="showall" >
-                 <!--- <div id="contents" class="content">
+                <div id="showall">
+                  <!--- <div id="contents" class="content">
                       <div>
                         <p>
                           hy i am kaushal <br />
@@ -235,37 +260,10 @@
                         </p>
                       </div>
                     </div>-->
-    
-
-
                 </div>
-
-              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               </div>
             </div>
           </div>
-
-
-
-
-
-
 
           <div class="bottom">
             <img src="bg.png" alt="" />
