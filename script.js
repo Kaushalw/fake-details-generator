@@ -47,7 +47,7 @@ var time=document.getElementById("sendertime").value;
   p.appendChild(span);
  
   sendermsg.value=" "
-
+console.log('cleared')
   document.getElementById("showall").appendChild(content);
 }
 
