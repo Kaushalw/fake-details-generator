@@ -45,7 +45,8 @@ var time=document.getElementById("sendertime").value;
   divs.appendChild(p);
   p.appendChild(br);
   p.appendChild(span);
-
+ 
+  sendermsg.value=" "
 
   document.getElementById("showall").appendChild(content);
 }
