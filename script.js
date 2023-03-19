@@ -64,13 +64,18 @@ var content= document.createElement("div");
 content.classList.add('you');
 
 
+var yourmsg = document.getElementById("yourmsg").value;
+var time=document.getElementById("yourtime").value;
+
+
+
 
 document.getElementById("yourmsg").value=" "
 console.log('cleared2')
 
 
-  p.innerHTML = document.getElementById("yourmsg").value;
-  span.innerHTML = document.getElementById("yourtime").value;
+  p.innerHTML = yourmsg;
+  span.innerHTML = time;
 
   divs.appendChild(p);
   br.appendChild(span);
