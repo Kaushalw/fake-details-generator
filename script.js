@@ -64,6 +64,11 @@ var content= document.createElement("div");
 content.classList.add('you');
 
 
+
+document.getElementById("yourmsg").value=" "
+console.log('cleared2')
+
+
   p.innerHTML = document.getElementById("yourmsg").value;
   span.innerHTML = document.getElementById("yourtime").value;
 
