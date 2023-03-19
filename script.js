@@ -38,6 +38,11 @@ var sendermsg = document.getElementById("sendermsg").value;
 var time=document.getElementById("sendertime").value;
 
 
+document.getElementById("sendermsg").value=" "
+console.log('cleared')
+
+
+
   p.innerHTML = sendermsg;
   span.innerHTML = time;
 
@@ -46,8 +51,7 @@ var time=document.getElementById("sendertime").value;
   p.appendChild(br);
   p.appendChild(span);
  
-  sendermsg.value=" "
-console.log('cleared')
+  
   document.getElementById("showall").appendChild(content);
 }
 
