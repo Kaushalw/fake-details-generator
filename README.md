@@ -1,1 +1,1 @@
-https://kaushalw.github.io/whatsapp.github.io/
+https://kaushalw.github.io/whatsapp 
